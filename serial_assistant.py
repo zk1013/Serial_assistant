@@ -119,7 +119,7 @@ class SerialAssistant(SerialUi):
         # 打开/关闭串口 按钮
         self.sset_btn_open.clicked.connect(self.port_open_close)
         # 更改窗口颜色下拉菜单
-        self.sset_cb_color.currentTextChanged.connect(self.change_color)
+        # self.sset_cb_color.currentTextChanged.connect(self.change_color)
         # 单行发送数据 按钮
         # self.sins_btn_send.clicked.connect(self.single_send)
         # 清除接收按钮

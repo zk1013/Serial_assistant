@@ -20,7 +20,7 @@ class SerialUi(QWidget):
         grid_layout.addWidget(self.set_serial_state_groupbox(), 1, 0)
         grid_layout.addWidget(self.set_receive_groupbox(), 0, 1)
         grid_layout.addWidget(self.set_mul_sent_groupbpx(), 0, 2)
-        grid_layout.addWidget(self.set_single_sent_groupbox(), 1, 1, 1, 2)
+        grid_layout.addWidget(self.set_single_sent_groupbox(), 1, 1,1,2)
         self.setLayout(grid_layout)
         self.resize(760, 420)
         self.setWindowIcon(QIcon('title_icon.png'))
